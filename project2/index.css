@@ -1,0 +1,114 @@
+
+body{
+    background-color: #0D192C;
+    margin: 0;
+}
+
+.container{
+    background-color: #15263F;
+    max-width: 350px;
+    height: 596px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    position: relative;
+}
+
+#topPicture{
+    max-width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    margin: 24px 24px 422px 24px;
+}
+
+#overlay{
+    position: absolute;
+    width: 302px;
+    height: 402px;
+    border-radius: 8px;
+   margin: 24px 24px 422px 24px;
+}
+
+.sectionTwo{
+    position:absolute;
+    margin-left:24px;
+    width: 302px;
+    margin-top: 350px;
+}
+
+#overlay:hover, #overlay:focus{
+    cursor: pointer;
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    background-color: rgba(0, 255, 248, 0.5);
+    border-radius: 8px;
+    margin: 24px 24px 422px 24px;
+}
+
+.topText
+{ 
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    margin-top: 24px;
+    position: relative;
+    margin: 0;
+}
+
+.topText:hover,.topText:focus{
+    cursor: pointer;
+    color: #00FFF8;
+}
+
+.comment{
+    margin-top: 16px;
+    color:#8BACD9;
+    right: 593px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.groupFor{
+    max-width: 301px;
+    height: 20px;
+}
+
+.line{
+    width: 302px;
+    height: 1px;
+    border: 1px solid #2E405A;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 24px;
+}
+
+.groupTwo{
+
+    margin-top: 16px;
+    height: 33px;
+}
+
+.groupTwoText{
+     width: 81px;
+    color: white;
+    margin-left: 16px;
+}
+
+.gropTwo-hoverText{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.gropTwo-hoverText:hover, .gropTwo-hoverText:focus{
+    cursor: pointer;
+    color: #00FFF8;
+}

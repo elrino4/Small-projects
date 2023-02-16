@@ -1,0 +1,167 @@
+
+
+body{
+    background-color: #F2F2F2;
+}
+
+.container{
+    position: absolute;
+    max-width: 1440px;
+    height: 945.34px;
+     background-color: #DFE6FB;
+}
+
+.content{
+    
+    background-color: white;
+    border-radius: 20px;
+    
+    position: relative;
+    max-width: 450px;
+    height: 697px;
+    
+    display: flex;
+    margin: 0 auto;
+    top: 102px;
+    bottom: 101px;
+    box-shadow: 0px 0px 20px #698DFF;
+}
+
+.picture{
+    width: 100%;
+    position: absolute;
+}
+.topText{
+    width: 354px;
+    height: 37px;
+   position:absolute;
+    top: 235px;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+
+.paragraf{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 354px;
+    height: 78px;
+    font-weight: 500px;
+    line-height: 26px;
+    position: absolute;
+    top: 300px;
+    left: 48px;
+    text-align: center;
+    color: #717FA6;
+  
+   
+    
+}
+
+.annualPlan{
+    position: absolute;
+    top: 417px;
+    left: 48px;
+    border-radius: 11px;
+    background-color: #F7F9FF;
+    width: 354px;
+    height: 98px;
+   
+}
+
+.anualPlanContent{
+    width: 306px;
+    height: 48px;
+   
+    position: relative;
+    top: 25px;
+    left: 24px;
+}
+
+.PlanText{
+    font-family: 'Red Hat Display', sans-serif; 
+    display: inline-block;
+    position:absolute;
+    top: -20px;
+    left: 68px;
+    font-weight: 900;
+    
+}
+
+.price{
+    font-family: 'Red Hat Display', sans-serif; 
+    display: inline-block;
+    position: absolute;
+    left: 68px;
+    bottom: -20px;
+    font-weight: 500;
+    color: #717FA6;
+
+}
+
+.changeBtn{
+    font-family: 'Red Hat Display', sans-serif;;
+    width: 52px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #382AE1;
+    position: absolute;
+    left: 254px;
+    top: 15px;
+    
+}
+
+.changeBtn:hover,.changeBtn:focus{
+    color: #766CF1;
+    text-decoration: none;
+}
+
+.ProcesBtn{
+    font-family: 'Red Hat Display', sans-serif;
+    width: 354px;
+    height: 40px;
+     position: relative;
+    top: 547px;
+    left: 48px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19px;
+    background-color: #382AE1;
+    color: white;
+    text-decoration: none;
+    border-radius: 11px;
+    
+}
+
+.ProcesBtn:hover,.ProcesBtn:focus{
+    background-color: #766CF1;
+}
+
+.canselOrder{
+    position: relative;
+    top:629px;
+    right: 178px;
+    height: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+    color: #717FA6;
+    text-decoration: none;
+}
+
+.canselOrder:hover, .canselOrder:focus{
+    color: #1F2E55;
+}
+
+@media only screen and (max-width:480px) {
+    .content{
+        width: 450px ;
+    }    
+}
